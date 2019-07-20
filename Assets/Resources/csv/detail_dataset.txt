@@ -1,0 +1,4 @@
+Unit
+Acc: [G] (original unit: mG)
+Gyro: [degree/s] 
+Mag: [G] (original unit: μT, 100μT=1G)
