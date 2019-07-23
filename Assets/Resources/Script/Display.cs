@@ -1,4 +1,24 @@
-﻿using System.Collections;
+﻿///////////////////////////////////////////////////////
+// (c) 2019 Darwin Boomerangs                         /
+// Smart -Boomerang Project                           /
+// In partnership with :                              /
+//   - University of St Etienne, France               /
+//   - Aoyama Gakuin University / Lopez lab, Japan    /
+///////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////
+// Filename    Display.cs                             /
+// This file is intended to display boomerang detail  /
+// status and rotate a boomerang object using csv     /
+// files (accMPU, gyroMPU, mag)                       /
+///////////////////////////////////////////////////////
+// v1.0  Date July 23th, 2019     Author Takumi Kondo /
+// Modifications from previous version...             /
+// ...                                                /
+///////////////////////////////////////////////////////
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -43,8 +63,8 @@ public class Display : MonoBehaviour
     //Furthermore, Acc unit was converted into G (original unit: mG)
     //Mag unit was converted into G (original unit: μT, 100μT=1G) 
     public string acc_dataset; //dataset of accelerometer
-    public string gyro_dataset; //dataset of accelerometer
-    public string mag_dataset; //dataset of accelerometer
+    public string gyro_dataset; //dataset of gyroscope
+    public string mag_dataset; //dataset of magnet
     public string euler_dataset; //dataset of euler
 
     //state determination

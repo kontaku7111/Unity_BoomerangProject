@@ -1,4 +1,24 @@
-﻿using System.Collections;
+﻿///////////////////////////////////////////////////////
+// (c) 2019 Darwin Boomerangs                         /
+// Smart -Boomerang Project                           /
+// In partnership with :                              /
+//   - University of St Etienne, France               /
+//   - Aoyama Gakuin University / Lopez lab, Japan    /
+///////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////
+// Filename    CsvRead.cs                             /
+// This file is intended to read csv files in csv     /
+// folder.                                            /
+//                                                    /
+///////////////////////////////////////////////////////
+// v1.0  Date July 23th, 2019     Author Takumi Kondo /
+// Modifications from previous version...             /
+// ...                                                /
+///////////////////////////////////////////////////////
+
+
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;

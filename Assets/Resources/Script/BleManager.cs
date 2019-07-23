@@ -1,4 +1,24 @@
-﻿using UnityEngine;
+﻿///////////////////////////////////////////////////////
+// (c) 2019 Darwin Boomerangs                         /
+// Smart -Boomerang Project                           /
+// In partnership with :                              /
+//   - University of St Etienne, France               /
+//   - Aoyama Gakuin University / Lopez lab, Japan    /
+///////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////
+// Filename    BleManager.cs                          /
+// This file is intended to controll BLE connection   /
+// and send a message to a specified BLE device and   /
+// recieve a message from a specified BLE device      /
+///////////////////////////////////////////////////////
+// v1.0  Date July 23th, 2019     Author Takumi Kondo /
+// Modifications from previous version...             /
+// ...                                                /
+///////////////////////////////////////////////////////
+
+
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
