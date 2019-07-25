@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ble.unity
-    guid: 09dde734ab068a8499019aeeb000e486
+    path: Assets/Scenes/boomerang.unity
+    guid: 49cfbbc52ee71274f82274f710b02517
   m_configObjects: {}
